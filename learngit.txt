@@ -4,4 +4,6 @@ cd learngit
 pwd #显示当前目录，不用于ls
 
 git init #在当前目录建新仓库
+git commit -a -m 'xxx' #跳过添加环节，直接提交
 
+git diff xxx.txt #查看修改了什么内容，仅限于add前。
