@@ -15,6 +15,7 @@ git diff HEAD -- 文件名.txt #是工作区和版本库的比较
 3.git reset --hard HEAD^ #回退到上一个版本
 git reset --hard xxxxx #输入版本号可以回到未来版本。不如用分支更好。
 
+git clone +仓库的ssh地址 #从github克隆库到本地，即在当前目录新建一个文件夹。ssh连接的方法还是看廖老师的教程吧，每个设备只用关联一个ssh钥就行的。
 
 
 
