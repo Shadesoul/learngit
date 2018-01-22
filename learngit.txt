@@ -1,0 +1,7 @@
+#encoding=utf-8
+mkdir learngit
+cd learngit 
+pwd #显示当前目录，不用于ls
+
+git init #在当前目录建新仓库
+
