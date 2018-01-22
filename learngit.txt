@@ -6,7 +6,8 @@ pwd #显示当前目录，不用于ls
 git init #在当前目录建新仓库
 git commit -a -m 'xxx' #跳过添加环节，直接提交
 
-git diff xxx.txt #查看修改了什么内容，仅限于add前。
+git diff xxx.txt #是工作区和暂存区的比较
+git diff --cached #暂存区和分支的比较
 git reset --hard HEAD^ #回退到上一个版本
 git reset --hard xxxxx #输入版本号可以回到未来版本。不如用分支更好。
 
