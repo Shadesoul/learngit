@@ -10,9 +10,9 @@ git diff xxx.txt #是工作区和暂存区的比较
 git diff --cached #暂存区和版本库的比较
 git diff HEAD -- 文件名.txt #是工作区和版本库的比较
 
-git checkout -- 文件名.txt #撤销工作区的修改，回到最后一次add或commit的状态。
-git reset HEAD 文件名.txt #撤销一个add操作。
-git reset --hard HEAD^ #回退到上一个版本
+1.git checkout -- 文件名.txt #撤销工作区的修改，回到最后一次add或commit的状态。
+2.git reset HEAD 文件名.txt #撤销一个add操作。
+3.git reset --hard HEAD^ #回退到上一个版本
 git reset --hard xxxxx #输入版本号可以回到未来版本。不如用分支更好。
 
 
