@@ -3,6 +3,9 @@ mkdir learngit
 cd learngit 
 pwd #显示当前目录，不用于ls
 
+cd .. #是返回上级目录。中间空格不能省略。
+cd - #返回上一次的目录
+
 git init #在当前目录建新仓库
 git commit -a -m 'xxx' #跳过添加环节，直接提交
 
