@@ -20,7 +20,8 @@ git reset --hard xxxxx #输入版本号可以回到未来版本。不如用分�
 
 git clone +仓库的ssh地址 #从github克隆库到本地，即在当前目录新建一个文件夹。ssh连接的方法还是看廖老师的教程吧，每个设备只用关联一个ssh钥就行的。
 
-git remote add origin git@github.com:Shadesoul/testblog.git #第一次应该先在github上建库，然后在本地推到GitHub库中。试了，没管用。还是克隆最方便。
+git remote add origin(远程库名，可以起别的) git@github.com:Shadesoul/testblog.git #第一次应该先在github上建库，然后在本地推到GitHub库中。试了，没管用。还是克隆最方便。
+git fetch origin #从远程仓库抓取本地没有的数据
 
 git checkout -b 分支名 #-b参数表示创建并切换分支
 git merge dev #合并分支,dev就是分支名
@@ -28,6 +29,9 @@ git branch -d dev #然后就可以删除这个分支了。
 
 git merge --no-ff -m 'merge with no-ff' dev #不用快进模式合并分支，这样不会丢失分支的信息。-m参数是同时做一个提交。
 git log --graph --pretty=oneline --abbrev-commit #查看分支历史，从下往上看。
+
+git remote -v #查看远程库的详细信息
+git push origin master #推+远程库名+分支名
 
 
 
